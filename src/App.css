@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* .content-wrapper{
+  
+} */
+.content-bar{
+  min-height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* background-color: red; */
+
+}
+.display-content{
+  background-color: goldenrod;
+  min-height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: silver;
+  margin: 0 auto;
+  /* height: 1000px; */
+  align-items: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-left: 6px;
+}
+
+label{
+  font-size: 15px;
+}
+
+.message input{
+  margin: 10px 0;
+  width: 96%;
+  height: 18px;
+  padding: 5px;
+  font-size: 16px;
+}
+select{
+  margin: 10px 0;
+  width: 96%;
+  height: 32px;
+  font-size: 14px;
+
+}
+.color-picker input{
+  margin: 10px auto;
+  width: 50%;
+  height: 30px;
+  padding: 6px;
+}
+.color-picker label{
+  font-size: 14px;
+}
+
+#span{
+  width: 100%;
+}
+.bar-sticky{
+  position: fixed;
+  top:0;
+}
+
+/* Horizontally Scrolling */
+.bar-scroll {
+  /* margin: 0;
+  padding: 0; */
+  display: inline-block;
+  animation: scroll-left 10s linear infinite; 
+  animation-play-state: running;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+.bar-radio-btn-wrapper{
+  padding-bottom: 10px;
+}
+
+.bar-radio-btn-wrapper span{
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.bar-label-1{
+  margin-right: 5px;
+}
+.bar-label-2{
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 7px;
+}
+
+.font-input{
+  margin: 7px 0;
+height: 15px;
+padding: 6px;
+}
+
+.bar-spacing-box{
+  padding-top: 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.bar-spacing-box label{
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.bar-spacing-box input{
+height: 15px;
+padding: 6px;
+}
+
+#couponCode{
+  margin-left: 20px;
+  height: 23px;
+  border: 2px dotted magenta;
+  padding: 0 7px;
+  width: 130px;
+  letter-spacing: 0.06rem;
+  border-right: 0;
+}
+
+.btn-copy{
+  height: 27px;
+    border: 2px dotted magenta;
+    border-left: 0;
+    padding: 0 5px;
+    background-color: white;
+font-size: 13px;
+font-weight: bold;
+}
+
+.close-btn{
+  cursor: pointer;
+  border: 0px;
+  padding: 2px 10px;
+  font-size: 22px;
+  font-weight: 400;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.coupon-wrapper{
+  display: inline;
+}
+.timer-content{
+  display: inline;
+}
+.onscroll-countdownremove{
+  display: none;
+  /* background-color: black; */
+}
